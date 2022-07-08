@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">login</string>
+        <string-array name="daftar_musik">
+            <item>JENNIE - SOLO</item>
+            <item>Closer-Walk off the Earth-The Chainsmokers Cover</item>
+            <item>Coldplay - Adventure Of A Lifetime</item>
+            <item>Coldplay - Hymn For The Weekend</item>
+            <item>Nano-Black Board</item>
+            <item>Nano-Hysteria</item>
+            <item>Lagu gak Ada</item>
+            <item>ikon</item>
+        </string-array>
+        <string-array name="daftar_vidio">
+            <item>Video 1</item>
+            <item>Video 2</item>
+            <item>Video 3</item>
+            <item>Video 4</item>
+            <item>videoplayback</item>
+        </string-array>
+        <string name="audio">Audio</string>
+        <string name="image">Image</string>
+        <string name="video">Video</string>
+        <string name="satu">1</string>
+        <string name="pilih">Pilih File : </string>
+        <string name="ok">OK</string>
+        <string name="directoryOn">http://192.168.43.152/android/</string>
+        <string name="directoryOf">http://192.168.43.152/android/</string>
+</resources>

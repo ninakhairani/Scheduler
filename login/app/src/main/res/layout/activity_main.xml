@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94C8F1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/AppTheme.AppBarOverlay" >
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/lokasi"
+        android:onClick="coba"
+        android:text="Destinasi Wisata Terpopuler di Dunia"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_sqlite"
+        android:onClick="btndb"
+        android:text="FITUR"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:src="@drawable/peta2"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/text_lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="Current Location"/>
+
+    <Button
+        android:id="@+id/button_lokasi"
+        android:hint="Get Location"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:background="@drawable/mode1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+

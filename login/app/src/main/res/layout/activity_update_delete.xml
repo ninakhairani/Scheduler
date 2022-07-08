@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b2"
+    android:paddingLeft="20dp"
+    tools:context=".UpdateDelete">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="160dp"
+        android:text="No :"
+        android:textSize="7pt" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="60dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="446dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="381dp"
+        android:ems="10"
+        android:hint="wisata"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nim"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="321dp"
+        android:ems="10"
+        android:hint="hiburan"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nim"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="-300dp"
+        android:background="@color/white"
+        android:onClick="update"
+        android:text="Update" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nim"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="-300dp"
+        android:layout_toRightOf="@+id/update"
+        android:onClick="delete"
+        android:background="@color/white"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="95dp"
+        android:layout_height="42sp"
+        android:layout_alignTop="@+id/nama"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="-55dp"
+        android:layout_marginEnd="70dp"
+        android:onClick="select"
+        android:background="@color/white"
+        android:text="Select" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="131dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="240dp"
+        android:background="@drawable/mode1"
+        android:onClick="back4"
+        android:text="Back"
+        android:textSize="15sp" />
+</RelativeLayout>
